@@ -6,6 +6,7 @@ RUN yum -y install mariadb-server mariadb wget
 VOLUME /var/lib/mysql
 
 
+
 #Start the Web Server and Database Service
 #RUN mysqld start 
 RUN systemctl enable httpd.service
